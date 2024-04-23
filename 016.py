@@ -42,6 +42,6 @@ for t in lists:
 
         B.append(t)
 
-print(f'Massiv A:n{A}')
+print(f"Massiv A:n{A}")
 
-print(f'Massiv B:n{B}')
+print(f"Massiv B:n{B}")
