@@ -29,11 +29,11 @@ def brosok_kubikov():
        amount = brosok()
 
        if amount == "2":
-           print("Выпало: ")
+           
            kubik1 = random.randint(min, max)
            kubik2 = random.randint(min, max)
 
-           print("Итог: ")
+           
            print("Первый кубик: ", kubik1)
            print("Второй кубик: ", kubik2)
            print("Результат: ", kubik1 + kubik2)
