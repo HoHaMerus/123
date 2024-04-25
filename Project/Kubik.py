@@ -17,6 +17,7 @@ def brosok():
       except ValueError as er:
           print(er)
 
+#Бросок кубика
 
 def brosok_kubikov():
    min = 1
