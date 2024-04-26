@@ -38,12 +38,12 @@ def brosok_kubikov():
            print("Второй кубик: ", kubik2)
            print("Результат: ", kubik1 + kubik2)
 
-           povtor = input("Бросаем еще: ")
+           povtor = input("Бросаем еще(y-если да, n-если нет): ")
        else:
            kubik1 = random.randint(min, max)
            print(f"Результат: {kubik1}")
 
-           povtor = input("Бросаем еще: ")
+           povtor = input("Бросаем еще(y-если да, n-если нет): ")
 
 
 if __name__ == '__main__':
