@@ -1,9 +1,6 @@
-def calculate_F(n):
-    if n 1:
-        return 1
-    else:
-        return calculate_F(n-1) * calculate_F(n-1) (n-1)
-
-n=int(input('Введите значение n⁚ '))
-result calculate_F(n)
-print('Значение F({}) {}'․format(n, result))
+def count_food():
+    a = int(input())
+    b = int(input())
+    print("Всего", a+b, "шт.")
+print("Число шоколадок и батончиков: ")
+count_food()
