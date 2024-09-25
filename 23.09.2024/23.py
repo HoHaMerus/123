@@ -1,3 +1,4 @@
-s = "Word to Split"
-wordlist = list(s)              
-wordlist = [ch for ch in s] 
+a = []
+a=input("Введите фразу:")
+a=a.split()
+print(a)
