@@ -1,19 +1,14 @@
-def remove_longest_pet_name(pet_names):
-    pets = pet_names.split()
-    pets_dict = {i + 1: pet for i, pet in enumerate(pets)}
+def a(imena):
+    p = imena.split()
+    dict = {i + 1: x for i, x in enumerate(p)}
+       
+    dlinnoe_imya = max(p, key=len)
+    ego_index = p.index(dlinnoe_imya) + 1
+
+    del dict[ego_index]
     
-    # Находим питомца с самым длинным именем
-    longest_name = max(pets, key=len)
-    longest_index = pets.index(longest_name) + 1  # Порядковый номер
+    return dict
 
-    # Удаляем питомца с самым длинным именем
-    del pets_dict[longest_index]
-    
-    return pets_dict
+r = a(input("Введите имена питомцев: "))
 
-# Входные данные
-input_names = "Пушок Гарфилд Муся Кеша Тим"
-result_dict = remove_longest_pet_name(input_names)
-
-# Вывод результата
-print(result_dict)
+print(r)
