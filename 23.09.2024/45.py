@@ -1,4 +1,4 @@
-def a(imena):
+def f(imena):
     p = imena.split()
     dict = {i + 1: x for i, x in enumerate(p)}
        
@@ -9,6 +9,6 @@ def a(imena):
     
     return dict
 
-r = a(input("Введите имена питомцев: "))
+r = f(input("Введите имена питомцев: "))
 
 print(r)
